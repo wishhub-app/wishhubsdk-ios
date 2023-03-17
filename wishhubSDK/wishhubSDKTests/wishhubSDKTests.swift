@@ -1,14 +1,14 @@
 //
-//  Wishhub_SDKTests.swift
-//  Wishhub SDKTests
+//  wishhubSDKTests.swift
+//  wishhubSDKTests
 //
 //  Created by Soslan-Bek on 17.03.2023.
 //
 
 import XCTest
-@testable import Wishhub_SDK
+@testable import wishhubSDK
 
-final class Wishhub_SDKTests: XCTestCase {
+final class wishhubSDKTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-    Native wishlist in your app
+    SDK which help you to listen wishes that want your users
                    DESC
 
   spec.homepage     = "https://github.com/wishhub-app/wishhubsdk-ios"
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "wishhubSDK/**/*.{h,m,swift}"
+  #spec.exclude_files = "Classes/Exclude"
 
 end

@@ -7,156 +7,153 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E5C148429C4B66E001517F2 /* Wishhub_SDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C148329C4B66E001517F2 /* Wishhub_SDK.docc */; };
-		8E5C148A29C4B66F001517F2 /* Wishhub_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5C147F29C4B66E001517F2 /* Wishhub_SDK.framework */; };
-		8E5C148F29C4B66F001517F2 /* Wishhub_SDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C148E29C4B66F001517F2 /* Wishhub_SDKTests.swift */; };
-		8E5C149029C4B66F001517F2 /* Wishhub_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5C148229C4B66E001517F2 /* Wishhub_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E9BCF6D29C4B9EA008FC3ED /* WishhubSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9BCF6C29C4B9EA008FC3ED /* WishhubSDK.swift */; };
+		8E9BCFC529C4BEFA008FC3ED /* wishhubSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8E9BCFC429C4BEFA008FC3ED /* wishhubSDK.docc */; };
+		8E9BCFCB29C4BEFA008FC3ED /* wishhubSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9BCFC029C4BEFA008FC3ED /* wishhubSDK.framework */; };
+		8E9BCFD029C4BEFA008FC3ED /* wishhubSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9BCFCF29C4BEFA008FC3ED /* wishhubSDKTests.swift */; };
+		8E9BCFD129C4BEFA008FC3ED /* wishhubSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9BCFC329C4BEFA008FC3ED /* wishhubSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8E5C148B29C4B66F001517F2 /* PBXContainerItemProxy */ = {
+		8E9BCFCC29C4BEFA008FC3ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E5C147629C4B66E001517F2 /* Project object */;
+			containerPortal = 8E9BCFB729C4BEFA008FC3ED /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E5C147E29C4B66E001517F2;
-			remoteInfo = "Wishhub SDK";
+			remoteGlobalIDString = 8E9BCFBF29C4BEFA008FC3ED;
+			remoteInfo = wishhubSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E5C147F29C4B66E001517F2 /* Wishhub_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Wishhub_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E5C148229C4B66E001517F2 /* Wishhub_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wishhub_SDK.h; sourceTree = "<group>"; };
-		8E5C148329C4B66E001517F2 /* Wishhub_SDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Wishhub_SDK.docc; sourceTree = "<group>"; };
-		8E5C148929C4B66F001517F2 /* Wishhub SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wishhub SDKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E5C148E29C4B66F001517F2 /* Wishhub_SDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wishhub_SDKTests.swift; sourceTree = "<group>"; };
-		8E9BCF6C29C4B9EA008FC3ED /* WishhubSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishhubSDK.swift; sourceTree = "<group>"; };
+		8E9BCFC029C4BEFA008FC3ED /* wishhubSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wishhubSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9BCFC329C4BEFA008FC3ED /* wishhubSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wishhubSDK.h; sourceTree = "<group>"; };
+		8E9BCFC429C4BEFA008FC3ED /* wishhubSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = wishhubSDK.docc; sourceTree = "<group>"; };
+		8E9BCFCA29C4BEFA008FC3ED /* wishhubSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wishhubSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9BCFCF29C4BEFA008FC3ED /* wishhubSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wishhubSDKTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E5C147C29C4B66E001517F2 /* Frameworks */ = {
+		8E9BCFBD29C4BEFA008FC3ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E5C148629C4B66E001517F2 /* Frameworks */ = {
+		8E9BCFC729C4BEFA008FC3ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E5C148A29C4B66F001517F2 /* Wishhub_SDK.framework in Frameworks */,
+				8E9BCFCB29C4BEFA008FC3ED /* wishhubSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E5C147529C4B66E001517F2 = {
+		8E9BCFB629C4BEFA008FC3ED = {
 			isa = PBXGroup;
 			children = (
-				8E5C148129C4B66E001517F2 /* Wishhub SDK */,
-				8E5C148D29C4B66F001517F2 /* Wishhub SDKTests */,
-				8E5C148029C4B66E001517F2 /* Products */,
+				8E9BCFC229C4BEFA008FC3ED /* wishhubSDK */,
+				8E9BCFCE29C4BEFA008FC3ED /* wishhubSDKTests */,
+				8E9BCFC129C4BEFA008FC3ED /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8E5C148029C4B66E001517F2 /* Products */ = {
+		8E9BCFC129C4BEFA008FC3ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E5C147F29C4B66E001517F2 /* Wishhub_SDK.framework */,
-				8E5C148929C4B66F001517F2 /* Wishhub SDKTests.xctest */,
+				8E9BCFC029C4BEFA008FC3ED /* wishhubSDK.framework */,
+				8E9BCFCA29C4BEFA008FC3ED /* wishhubSDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E5C148129C4B66E001517F2 /* Wishhub SDK */ = {
+		8E9BCFC229C4BEFA008FC3ED /* wishhubSDK */ = {
 			isa = PBXGroup;
 			children = (
-				8E5C148229C4B66E001517F2 /* Wishhub_SDK.h */,
-				8E5C148329C4B66E001517F2 /* Wishhub_SDK.docc */,
-				8E9BCF6C29C4B9EA008FC3ED /* WishhubSDK.swift */,
+				8E9BCFC329C4BEFA008FC3ED /* wishhubSDK.h */,
+				8E9BCFC429C4BEFA008FC3ED /* wishhubSDK.docc */,
 			);
-			path = "Wishhub SDK";
+			path = wishhubSDK;
 			sourceTree = "<group>";
 		};
-		8E5C148D29C4B66F001517F2 /* Wishhub SDKTests */ = {
+		8E9BCFCE29C4BEFA008FC3ED /* wishhubSDKTests */ = {
 			isa = PBXGroup;
 			children = (
-				8E5C148E29C4B66F001517F2 /* Wishhub_SDKTests.swift */,
+				8E9BCFCF29C4BEFA008FC3ED /* wishhubSDKTests.swift */,
 			);
-			path = "Wishhub SDKTests";
+			path = wishhubSDKTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8E5C147A29C4B66E001517F2 /* Headers */ = {
+		8E9BCFBB29C4BEFA008FC3ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E5C149029C4B66F001517F2 /* Wishhub_SDK.h in Headers */,
+				8E9BCFD129C4BEFA008FC3ED /* wishhubSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8E5C147E29C4B66E001517F2 /* Wishhub SDK */ = {
+		8E9BCFBF29C4BEFA008FC3ED /* wishhubSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E5C149329C4B66F001517F2 /* Build configuration list for PBXNativeTarget "Wishhub SDK" */;
+			buildConfigurationList = 8E9BCFD429C4BEFA008FC3ED /* Build configuration list for PBXNativeTarget "wishhubSDK" */;
 			buildPhases = (
-				8E5C147A29C4B66E001517F2 /* Headers */,
-				8E5C147B29C4B66E001517F2 /* Sources */,
-				8E5C147C29C4B66E001517F2 /* Frameworks */,
-				8E5C147D29C4B66E001517F2 /* Resources */,
+				8E9BCFBB29C4BEFA008FC3ED /* Headers */,
+				8E9BCFBC29C4BEFA008FC3ED /* Sources */,
+				8E9BCFBD29C4BEFA008FC3ED /* Frameworks */,
+				8E9BCFBE29C4BEFA008FC3ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Wishhub SDK";
-			productName = "Wishhub SDK";
-			productReference = 8E5C147F29C4B66E001517F2 /* Wishhub_SDK.framework */;
+			name = wishhubSDK;
+			productName = wishhubSDK;
+			productReference = 8E9BCFC029C4BEFA008FC3ED /* wishhubSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8E5C148829C4B66E001517F2 /* Wishhub SDKTests */ = {
+		8E9BCFC929C4BEFA008FC3ED /* wishhubSDKTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E5C149629C4B66F001517F2 /* Build configuration list for PBXNativeTarget "Wishhub SDKTests" */;
+			buildConfigurationList = 8E9BCFD729C4BEFA008FC3ED /* Build configuration list for PBXNativeTarget "wishhubSDKTests" */;
 			buildPhases = (
-				8E5C148529C4B66E001517F2 /* Sources */,
-				8E5C148629C4B66E001517F2 /* Frameworks */,
-				8E5C148729C4B66E001517F2 /* Resources */,
+				8E9BCFC629C4BEFA008FC3ED /* Sources */,
+				8E9BCFC729C4BEFA008FC3ED /* Frameworks */,
+				8E9BCFC829C4BEFA008FC3ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E5C148C29C4B66F001517F2 /* PBXTargetDependency */,
+				8E9BCFCD29C4BEFA008FC3ED /* PBXTargetDependency */,
 			);
-			name = "Wishhub SDKTests";
-			productName = "Wishhub SDKTests";
-			productReference = 8E5C148929C4B66F001517F2 /* Wishhub SDKTests.xctest */;
+			name = wishhubSDKTests;
+			productName = wishhubSDKTests;
+			productReference = 8E9BCFCA29C4BEFA008FC3ED /* wishhubSDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8E5C147629C4B66E001517F2 /* Project object */ = {
+		8E9BCFB729C4BEFA008FC3ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					8E5C147E29C4B66E001517F2 = {
+					8E9BCFBF29C4BEFA008FC3ED = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					8E5C148829C4B66E001517F2 = {
+					8E9BCFC929C4BEFA008FC3ED = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 8E5C147929C4B66E001517F2 /* Build configuration list for PBXProject "Wishhub SDK" */;
+			buildConfigurationList = 8E9BCFBA29C4BEFA008FC3ED /* Build configuration list for PBXProject "wishhubSDK" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -164,26 +161,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 8E5C147529C4B66E001517F2;
-			productRefGroup = 8E5C148029C4B66E001517F2 /* Products */;
+			mainGroup = 8E9BCFB629C4BEFA008FC3ED;
+			productRefGroup = 8E9BCFC129C4BEFA008FC3ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E5C147E29C4B66E001517F2 /* Wishhub SDK */,
-				8E5C148829C4B66E001517F2 /* Wishhub SDKTests */,
+				8E9BCFBF29C4BEFA008FC3ED /* wishhubSDK */,
+				8E9BCFC929C4BEFA008FC3ED /* wishhubSDKTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8E5C147D29C4B66E001517F2 /* Resources */ = {
+		8E9BCFBE29C4BEFA008FC3ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E5C148729C4B66E001517F2 /* Resources */ = {
+		8E9BCFC829C4BEFA008FC3ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,35 +190,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E5C147B29C4B66E001517F2 /* Sources */ = {
+		8E9BCFBC29C4BEFA008FC3ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E5C148429C4B66E001517F2 /* Wishhub_SDK.docc in Sources */,
-				8E9BCF6D29C4B9EA008FC3ED /* WishhubSDK.swift in Sources */,
+				8E9BCFC529C4BEFA008FC3ED /* wishhubSDK.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E5C148529C4B66E001517F2 /* Sources */ = {
+		8E9BCFC629C4BEFA008FC3ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E5C148F29C4B66F001517F2 /* Wishhub_SDKTests.swift in Sources */,
+				8E9BCFD029C4BEFA008FC3ED /* wishhubSDKTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8E5C148C29C4B66F001517F2 /* PBXTargetDependency */ = {
+		8E9BCFCD29C4BEFA008FC3ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8E5C147E29C4B66E001517F2 /* Wishhub SDK */;
-			targetProxy = 8E5C148B29C4B66F001517F2 /* PBXContainerItemProxy */;
+			target = 8E9BCFBF29C4BEFA008FC3ED /* wishhubSDK */;
+			targetProxy = 8E9BCFCC29C4BEFA008FC3ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8E5C149129C4B66F001517F2 /* Debug */ = {
+		8E9BCFD229C4BEFA008FC3ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,7 +280,7 @@
 			};
 			name = Debug;
 		};
-		8E5C149229C4B66F001517F2 /* Release */ = {
+		8E9BCFD329C4BEFA008FC3ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,7 +337,7 @@
 			};
 			name = Release;
 		};
-		8E5C149429C4B66F001517F2 /* Debug */ = {
+		8E9BCFD529C4BEFA008FC3ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -360,7 +356,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.wishhub.Wishhub-SDK";
+				PRODUCT_BUNDLE_IDENTIFIER = app.wishhub.wishhubSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -369,7 +365,7 @@
 			};
 			name = Debug;
 		};
-		8E5C149529C4B66F001517F2 /* Release */ = {
+		8E9BCFD629C4BEFA008FC3ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -388,7 +384,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.wishhub.Wishhub-SDK";
+				PRODUCT_BUNDLE_IDENTIFIER = app.wishhub.wishhubSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -397,16 +393,15 @@
 			};
 			name = Release;
 		};
-		8E5C149729C4B66F001517F2 /* Debug */ = {
+		8E9BCFD829C4BEFA008FC3ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3HE43VYD2Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.wishhub.Wishhub-SDKTests";
+				PRODUCT_BUNDLE_IDENTIFIER = app.wishhub.wishhubSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -414,16 +409,15 @@
 			};
 			name = Debug;
 		};
-		8E5C149829C4B66F001517F2 /* Release */ = {
+		8E9BCFD929C4BEFA008FC3ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3HE43VYD2Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.wishhub.Wishhub-SDKTests";
+				PRODUCT_BUNDLE_IDENTIFIER = app.wishhub.wishhubSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -434,34 +428,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8E5C147929C4B66E001517F2 /* Build configuration list for PBXProject "Wishhub SDK" */ = {
+		8E9BCFBA29C4BEFA008FC3ED /* Build configuration list for PBXProject "wishhubSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E5C149129C4B66F001517F2 /* Debug */,
-				8E5C149229C4B66F001517F2 /* Release */,
+				8E9BCFD229C4BEFA008FC3ED /* Debug */,
+				8E9BCFD329C4BEFA008FC3ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E5C149329C4B66F001517F2 /* Build configuration list for PBXNativeTarget "Wishhub SDK" */ = {
+		8E9BCFD429C4BEFA008FC3ED /* Build configuration list for PBXNativeTarget "wishhubSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E5C149429C4B66F001517F2 /* Debug */,
-				8E5C149529C4B66F001517F2 /* Release */,
+				8E9BCFD529C4BEFA008FC3ED /* Debug */,
+				8E9BCFD629C4BEFA008FC3ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E5C149629C4B66F001517F2 /* Build configuration list for PBXNativeTarget "Wishhub SDKTests" */ = {
+		8E9BCFD729C4BEFA008FC3ED /* Build configuration list for PBXNativeTarget "wishhubSDKTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E5C149729C4B66F001517F2 /* Debug */,
-				8E5C149829C4B66F001517F2 /* Release */,
+				8E9BCFD829C4BEFA008FC3ED /* Debug */,
+				8E9BCFD929C4BEFA008FC3ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8E5C147629C4B66E001517F2 /* Project object */;
+	rootObject = 8E9BCFB729C4BEFA008FC3ED /* Project object */;
 }
