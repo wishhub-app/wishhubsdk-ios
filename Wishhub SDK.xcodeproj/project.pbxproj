@@ -11,6 +11,7 @@
 		8E5C148A29C4B66F001517F2 /* Wishhub_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5C147F29C4B66E001517F2 /* Wishhub_SDK.framework */; };
 		8E5C148F29C4B66F001517F2 /* Wishhub_SDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C148E29C4B66F001517F2 /* Wishhub_SDKTests.swift */; };
 		8E5C149029C4B66F001517F2 /* Wishhub_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5C148229C4B66E001517F2 /* Wishhub_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E9BCF6D29C4B9EA008FC3ED /* WishhubSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9BCF6C29C4B9EA008FC3ED /* WishhubSDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		8E5C148329C4B66E001517F2 /* Wishhub_SDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Wishhub_SDK.docc; sourceTree = "<group>"; };
 		8E5C148929C4B66F001517F2 /* Wishhub SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wishhub SDKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5C148E29C4B66F001517F2 /* Wishhub_SDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wishhub_SDKTests.swift; sourceTree = "<group>"; };
+		8E9BCF6C29C4B9EA008FC3ED /* WishhubSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishhubSDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				8E5C148229C4B66E001517F2 /* Wishhub_SDK.h */,
 				8E5C148329C4B66E001517F2 /* Wishhub_SDK.docc */,
+				8E9BCF6C29C4B9EA008FC3ED /* WishhubSDK.swift */,
 			);
 			path = "Wishhub SDK";
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E5C148429C4B66E001517F2 /* Wishhub_SDK.docc in Sources */,
+				8E9BCF6D29C4B9EA008FC3ED /* WishhubSDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 		8E5C149729C4B66F001517F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3HE43VYD2Y;
@@ -412,6 +417,7 @@
 		8E5C149829C4B66F001517F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3HE43VYD2Y;
